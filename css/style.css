@@ -12,7 +12,9 @@ body {
     background: #ffffff;
 }
 
-@font-face {
-  font-family: 'RubikBurned';
-  src: url('assets/RubikBurned-Regular.ttf');
+.rubik-burned-regular {
+  font-family: "Rubik Burned", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
+
