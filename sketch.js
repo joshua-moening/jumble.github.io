@@ -7,6 +7,7 @@ function setup() {
     loadFont('/joshua-moening.github.io/jumble.github.io/assets/RubikBurned-Regular.ttf', font => {
     fill('deeppink');
     textFont(font);
+    });
     greeting = createElement('h2', 'Jumble');
     greeting.position(CENTER, 5);
     greeting.style('color', 'deeppink');
@@ -17,7 +18,6 @@ function setup() {
     button.position(815, 65);
     button.mousePressed(greet);
     wordInput.changed(greet);
-    });
 }
 
 function greet() {
