@@ -7,7 +7,7 @@ function setup() {
     greeting = createElement('h2', 'Jumble');
     greeting.position(CENTER, 5);
     greeting.style('color', 'deeppink');
-    greeting.style('font-family', 'RubikBurned')
+    greeting.style('font-family', 'Rubik Burned')
     wordInput = createInput();
     wordInput.position(650, 65);
     button = createButton('Anagram');
