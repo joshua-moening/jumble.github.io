@@ -4,7 +4,7 @@ let greeting;
 
 function setup() {
     createCanvas(800, 600);
-    loadFont('/joshua-moening.github.io/jumble.github.io/assets/RubikBurned-Regular.ttf', font => {
+    loadFont('assets/RubikBurned-Regular.ttf', font => {
     fill('deeppink');
     textFont(font);
     });
