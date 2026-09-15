@@ -4,10 +4,6 @@ let greeting;
 
 function setup() {
     createCanvas(800, 600);
-    loadFont('assets/RubikBurned-Regular.ttf', font => {
-    fill('deeppink');
-    textFont(font);
-    });
     greeting = createElement('h2', 'Jumble');
     greeting.position(CENTER, 5);
     greeting.style('color', 'deeppink');
