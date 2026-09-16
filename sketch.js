@@ -11,7 +11,7 @@ function setup() {
     wordInput = createInput();
     wordInput.position(CENTER, 65);
     button = createButton('Anagram');
-    button.position(CENTER, 70);
+    button.position(CENTER, 75);
     button.mousePressed(greet);
     wordInput.changed(greet);
 }
