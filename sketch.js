@@ -46,8 +46,10 @@ function greet() {
 
     // Draw name on the canvas
     textSize(100);
+    
     textFont('Rubik Burned');
     textAlign(CENTER, CENTER);
+    fill('deeppink');
     text(newWord, width / 2, height / 2);
 
     describe(`The name ${word} in large black text on a white background.`);
