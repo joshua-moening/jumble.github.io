@@ -46,6 +46,7 @@ function greet() {
 
     // Draw name on the canvas
     textSize(100);
+    textFont('Rubik Burned');
     textAlign(CENTER, CENTER);
     text(newWord, width / 2, height / 2);
 
