@@ -5,13 +5,13 @@ let greeting;
 function setup() {
     createCanvas(800, 600);
     greeting = createElement('h2', 'Jumble');
-    greeting.position(CENTER, 5);
+    greeting.position(CENTER, 15);
     greeting.style('color', 'deeppink');
     greeting.style('font-family', 'Rubik Burned')
     wordInput = createInput();
-    wordInput.position(650, 65);
+    wordInput.position(CENTER, 65);
     button = createButton('Anagram');
-    button.position(815, 65);
+    button.position(CENTER, 70);
     button.mousePressed(greet);
     wordInput.changed(greet);
 }
